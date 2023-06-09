@@ -1,0 +1,78 @@
+.messages {
+    display: flex;
+    justify-content: center;
+    color: #555;
+
+}
+
+
+.messages .container {
+
+    width: 90%;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+
+}
+
+/* 
+ .messages .tite {
+    display: flex;
+    justify-content: space-between;
+} */
+/*
+.messages .title button {
+    background-color: #1dbf73;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+} */
+
+
+ table {
+    width: 100%;
+}
+
+tr {
+    height: 100px;
+}
+
+th {
+    text-align: center;
+    
+}
+
+td {
+    padding: 10px;
+}
+
+td:first-child {
+    font-weight: 500;
+}
+
+td:nth-child(2),
+td:nth-child(3) {
+    color: gray;
+}
+
+
+.messages table tr td button {
+    background-color: #13c32a;
+    color: rgb(242, 237, 237);
+    /* padding: 10px; */
+    border: none;
+    width: auto;
+    cursor: pointer;
+   
+    
+}
+
+
+td button.activ {
+   background-color: #27e8d2a2;
+   color: black;
+   
+}

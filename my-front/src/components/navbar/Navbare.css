@@ -1,0 +1,145 @@
+.navbare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #05010a5e;
+    backdrop-filter: blur(4px);
+    z-index: 999;
+    color: white;
+    position: fixed;
+    width: 100%;
+    /* margin: 10px 0px; */
+    top: 0;
+    transition: 0.7s all ease;
+    padding: 20px 0px ;
+
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.856);
+    color: black;
+    position: sticky;
+   
+    backdrop-filter: blur(1px);
+}
+
+.active button {
+    background-color: white !important;
+    color: #03C988 !important;
+    border: 1px solid #03C988 !important;
+
+} 
+
+.navbare .containe {
+   width: 90%;
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+   
+}
+
+.navbare .logonav {
+    display: flex;
+align-items: center; 
+    font-weight: bold;
+    
+    
+}
+.textlogonav{
+    font-weight: bold;
+    color: #021145;
+    font-size: 26px;
+    
+}
+
+.dotnav {
+    font-weight: bold;
+    color: #ffcc02;
+    font-size: 26px;
+}
+
+.navbare .links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+}
+
+span {
+    white-space: nowrap;
+}
+
+.navbare .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.navbare img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbare .options {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 999;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    font-weight: 300;
+    color: gray;
+}
+
+
+.navbare button {
+    color: rgb(255, 253, 253);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.navbare button:hover {
+    background-color: #1dbf73;
+    border-color: #1dbf73;
+}
+
+
+
+.navbare hr {
+    width: calc(100% - 2px);
+    height: 0;
+    border-top: 0.5px solid #ebe9e9;
+    border-bottom: 0.5px solid #ebe9e9;
+   
+    
+}
+
+.navbare .menu {
+    width: 90%;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: 	#010048;
+    
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    
+}

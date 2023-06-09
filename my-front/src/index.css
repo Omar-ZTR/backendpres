@@ -1,0 +1,17 @@
+body {
+  
+  /* background:linear-gradient( to left, #b4b4b52b, 	#f0f0f22b , #d3d3d42d); */
+ /* background-image: url(./img/bbbl.png );
+  backdrop-filter: blur(2px); */
+  background-color: aliceblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} 

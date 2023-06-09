@@ -1,0 +1,61 @@
+.myserv {
+    display: flex;
+    justify-content: center;
+    color: #555;
+
+}
+
+.myserv .container {
+    width: 1400px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myserv .titl {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.myserv .titl button {
+    background-color: #1dbf73;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.myserv table {
+    width: 100%;
+}
+
+.myserv tr {
+    height: 50px;
+}
+
+.myserv th {
+    text-align: left;
+}
+
+.myserv td.sup {
+    font-size: 12px;
+}
+
+.myserv td .image {
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.myserv td .delete {
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.myserv tr:nth-child(even) {
+    background-color: #1dbf730f;
+}

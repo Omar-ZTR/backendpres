@@ -1,0 +1,77 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login form {
+    width: 360px;
+    margin: 100px 0px;
+    padding: 50px 0px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+border-bottom:1px solid rgb(187, 143, 12) ;
+border-left:1px solid rgb(187, 143, 12) ;
+padding-left:5px ;
+
+  }
+  .login form h1 {
+    color: gray;
+    margin-bottom: 20px;
+  }
+  .login form label {
+    color: gray;
+    font-size: 18px;
+  }
+  .login form input, .login form textarea {
+    padding: 20px;
+    border: 1px solid #d8d6d6;
+    border-radius: 10px;
+  }
+  .login form button {
+    border: none;
+   text-align: center;
+   padding-bottom: 30px;
+    color: white;
+    height: 100px  ;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #0d035a;
+    cursor: pointer;
+    border-radius: 10px;
+
+  }
+  .login form span {
+    color: red;
+    font-size: 12px;
+  }
+  .logo {
+    display: flex;
+align-items: center; 
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #999fbd;
+    height: 60px;
+
+    
+    
+}
+.marj{
+  margin: 30px;
+}
+.textlogo{
+
+    font-weight: bold;
+    color: #021145;
+    font-size: 26px;
+    
+}
+
+.dot {
+    font-weight: bold;
+    color: #ffcc02;
+    font-size: 26px;
+}
