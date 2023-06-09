@@ -1,0 +1,135 @@
+.lists{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+   
+}
+.messageadmin {
+    color: white;
+    padding: 18px 20px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #002cae;
+    box-shadow: 5px 5px 13px #07bcd0, -5px -5px 13px #ffffff;
+
+}
+.msg{
+    margin-top: 10px;
+}
+
+button {
+    background-color: #ffc100;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    border: none;
+    color: #ffffff;
+    max-height: 30px;
+
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+button:hover {
+    background-color: #07bcd000;
+    color: #ffc100;
+}
+
+.messageadmin::after {
+    bottom: 100%;
+    left: 4%;
+    border: solid transparent;
+    content: " ";
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #002cae;
+    border-width: 10px;
+    margin-left: -10px
+}
+.listright{
+    flex: 1;
+}
+.messageadmin-data {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.messageadmin-data-img {
+    color: lighten(gray, 8%);
+    padding-left: 6px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.messageadmin-data-name {
+    height: 30px;
+    padding: 0.5%;
+    margin-left: 4px;
+    font-size: 17px;
+
+}
+.itemlist{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.itemlist-img {
+    color: lighten(gray, 8%);
+    /* padding-left: 6px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.itemlist-name {
+    /* height: 30px; */
+    /* padding: 5% 0; */
+  margin-left: -1px;
+    font-size: 17px;
+
+}
+.itemlist-cat {
+    /* height: 30px; */
+    
+    
+    /* right: 2px; */
+    /* padding: 5% 0; */
+    font-size: 17px;
+
+}
+
+.itemlist table tr{
+   /* align-items: center; */
+    background-color: #f1e5e500;
+    border: 0px solid rgba(221, 129, 15, 0);
+    
+}
+td:last-child{
+    text-align: center;
+    right: 2px;
+    width: 200px;
+}
+td:first-child{
+  width: 31px;
+}
+tr{
+    height: 40px;
+    box-shadow: 5px 5px 13px #dff3f5;
+    border-radius: 10px;
+    
+
+}
+tr:nth-child(even){background-color: #ffffff00;}
